@@ -9,10 +9,16 @@
 /* Begin PBXBuildFile section */
 		41A545F11DDF479F00AABF17 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 41A545F01DDF479F00AABF17 /* main.m */; };
 		41A545F41DDF479F00AABF17 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 41A545F31DDF479F00AABF17 /* AppDelegate.m */; };
-		41A545F71DDF479F00AABF17 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41A545F61DDF479F00AABF17 /* ViewController.m */; };
 		41A545FA1DDF47A000AABF17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41A545F81DDF47A000AABF17 /* Main.storyboard */; };
 		41A545FC1DDF47A000AABF17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41A545FB1DDF47A000AABF17 /* Assets.xcassets */; };
 		41A545FF1DDF47A000AABF17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41A545FD1DDF47A000AABF17 /* LaunchScreen.storyboard */; };
+		41D50C131E493C0C00B8CAE4 /* SLStoryboardController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41D50C0E1E493C0C00B8CAE4 /* SLStoryboardController.m */; };
+		41D50C141E493C0C00B8CAE4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41D50C121E493C0C00B8CAE4 /* ViewController.m */; };
+		41D50C161E493C4900B8CAE4 /* Products_Screens.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41D50C151E493C4900B8CAE4 /* Products_Screens.storyboard */; };
+		41D50C181E493C6000B8CAE4 /* Settings_Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41D50C171E493C6000B8CAE4 /* Settings_Screen.storyboard */; };
+		41D50C1A1E493C8200B8CAE4 /* Onboarding_Screens.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41D50C191E493C8200B8CAE4 /* Onboarding_Screens.storyboard */; };
+		41D50C1E1E493D3C00B8CAE4 /* CreateRestaurants_Screens.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41D50C1D1E493D3C00B8CAE4 /* CreateRestaurants_Screens.storyboard */; };
+		41D50C201E493D5600B8CAE4 /* Restaurants_Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41D50C1F1E493D5600B8CAE4 /* Restaurants_Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +26,19 @@
 		41A545F01DDF479F00AABF17 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		41A545F21DDF479F00AABF17 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		41A545F31DDF479F00AABF17 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		41A545F51DDF479F00AABF17 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		41A545F61DDF479F00AABF17 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		41A545F91DDF47A000AABF17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		41A545FB1DDF47A000AABF17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41A545FE1DDF47A000AABF17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		41A546001DDF47A000AABF17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41D50C0D1E493C0C00B8CAE4 /* SLStoryboardController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLStoryboardController.h; sourceTree = "<group>"; };
+		41D50C0E1E493C0C00B8CAE4 /* SLStoryboardController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLStoryboardController.m; sourceTree = "<group>"; };
+		41D50C111E493C0C00B8CAE4 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		41D50C121E493C0C00B8CAE4 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		41D50C151E493C4900B8CAE4 /* Products_Screens.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Products_Screens.storyboard; sourceTree = "<group>"; };
+		41D50C171E493C6000B8CAE4 /* Settings_Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Settings_Screen.storyboard; sourceTree = "<group>"; };
+		41D50C191E493C8200B8CAE4 /* Onboarding_Screens.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Onboarding_Screens.storyboard; sourceTree = "<group>"; };
+		41D50C1D1E493D3C00B8CAE4 /* CreateRestaurants_Screens.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CreateRestaurants_Screens.storyboard; sourceTree = "<group>"; };
+		41D50C1F1E493D5600B8CAE4 /* Restaurants_Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Restaurants_Screen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +71,13 @@
 		41A545EE1DDF479F00AABF17 /* ManageStoryboards */ = {
 			isa = PBXGroup;
 			children = (
+				41D50C0C1E493C0C00B8CAE4 /* SLStoryboardController */,
+				41D50C0F1E493C0C00B8CAE4 /* Storyboards */,
+				41D50C101E493C0C00B8CAE4 /* ViewControllers */,
+				41D50C1B1E493CEC00B8CAE4 /* CellsView */,
+				41D50C1C1E493CEC00B8CAE4 /* Views */,
 				41A545F21DDF479F00AABF17 /* AppDelegate.h */,
 				41A545F31DDF479F00AABF17 /* AppDelegate.m */,
-				41A545F51DDF479F00AABF17 /* ViewController.h */,
-				41A545F61DDF479F00AABF17 /* ViewController.m */,
 				41A545F81DDF47A000AABF17 /* Main.storyboard */,
 				41A545FB1DDF47A000AABF17 /* Assets.xcassets */,
 				41A545FD1DDF47A000AABF17 /* LaunchScreen.storyboard */,
@@ -77,6 +93,50 @@
 				41A545F01DDF479F00AABF17 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		41D50C0C1E493C0C00B8CAE4 /* SLStoryboardController */ = {
+			isa = PBXGroup;
+			children = (
+				41D50C0D1E493C0C00B8CAE4 /* SLStoryboardController.h */,
+				41D50C0E1E493C0C00B8CAE4 /* SLStoryboardController.m */,
+			);
+			path = SLStoryboardController;
+			sourceTree = "<group>";
+		};
+		41D50C0F1E493C0C00B8CAE4 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				41D50C151E493C4900B8CAE4 /* Products_Screens.storyboard */,
+				41D50C171E493C6000B8CAE4 /* Settings_Screen.storyboard */,
+				41D50C191E493C8200B8CAE4 /* Onboarding_Screens.storyboard */,
+				41D50C1D1E493D3C00B8CAE4 /* CreateRestaurants_Screens.storyboard */,
+				41D50C1F1E493D5600B8CAE4 /* Restaurants_Screen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		41D50C101E493C0C00B8CAE4 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				41D50C111E493C0C00B8CAE4 /* ViewController.h */,
+				41D50C121E493C0C00B8CAE4 /* ViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		41D50C1B1E493CEC00B8CAE4 /* CellsView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CellsView;
+			sourceTree = "<group>";
+		};
+		41D50C1C1E493CEC00B8CAE4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,8 +199,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				41A545FF1DDF47A000AABF17 /* LaunchScreen.storyboard in Resources */,
+				41D50C1A1E493C8200B8CAE4 /* Onboarding_Screens.storyboard in Resources */,
+				41D50C161E493C4900B8CAE4 /* Products_Screens.storyboard in Resources */,
+				41D50C181E493C6000B8CAE4 /* Settings_Screen.storyboard in Resources */,
+				41D50C1E1E493D3C00B8CAE4 /* CreateRestaurants_Screens.storyboard in Resources */,
 				41A545FC1DDF47A000AABF17 /* Assets.xcassets in Resources */,
 				41A545FA1DDF47A000AABF17 /* Main.storyboard in Resources */,
+				41D50C201E493D5600B8CAE4 /* Restaurants_Screen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,8 +216,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				41A545F71DDF479F00AABF17 /* ViewController.m in Sources */,
+				41D50C131E493C0C00B8CAE4 /* SLStoryboardController.m in Sources */,
 				41A545F41DDF479F00AABF17 /* AppDelegate.m in Sources */,
+				41D50C141E493C0C00B8CAE4 /* ViewController.m in Sources */,
 				41A545F11DDF479F00AABF17 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -310,6 +376,7 @@
 				41A546051DDF47A000AABF17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
