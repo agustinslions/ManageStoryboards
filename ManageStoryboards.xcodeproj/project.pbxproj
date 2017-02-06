@@ -19,6 +19,8 @@
 		41D50C1A1E493C8200B8CAE4 /* Onboarding_Screens.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41D50C191E493C8200B8CAE4 /* Onboarding_Screens.storyboard */; };
 		41D50C1E1E493D3C00B8CAE4 /* CreateRestaurants_Screens.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41D50C1D1E493D3C00B8CAE4 /* CreateRestaurants_Screens.storyboard */; };
 		41D50C201E493D5600B8CAE4 /* Restaurants_Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41D50C1F1E493D5600B8CAE4 /* Restaurants_Screen.storyboard */; };
+		41D50C231E493DF600B8CAE4 /* SL_HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41D50C221E493DF600B8CAE4 /* SL_HomeViewController.m */; };
+		41D50C2B1E49401700B8CAE4 /* SLStoryboardController+SLExtensionExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 41D50C2A1E49401700B8CAE4 /* SLStoryboardController+SLExtensionExample.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +41,10 @@
 		41D50C191E493C8200B8CAE4 /* Onboarding_Screens.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Onboarding_Screens.storyboard; sourceTree = "<group>"; };
 		41D50C1D1E493D3C00B8CAE4 /* CreateRestaurants_Screens.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CreateRestaurants_Screens.storyboard; sourceTree = "<group>"; };
 		41D50C1F1E493D5600B8CAE4 /* Restaurants_Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Restaurants_Screen.storyboard; sourceTree = "<group>"; };
+		41D50C211E493DF600B8CAE4 /* SL_HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SL_HomeViewController.h; sourceTree = "<group>"; };
+		41D50C221E493DF600B8CAE4 /* SL_HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SL_HomeViewController.m; sourceTree = "<group>"; };
+		41D50C291E49401700B8CAE4 /* SLStoryboardController+SLExtensionExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SLStoryboardController+SLExtensionExample.h"; sourceTree = "<group>"; };
+		41D50C2A1E49401700B8CAE4 /* SLStoryboardController+SLExtensionExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SLStoryboardController+SLExtensionExample.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +106,8 @@
 			children = (
 				41D50C0D1E493C0C00B8CAE4 /* SLStoryboardController.h */,
 				41D50C0E1E493C0C00B8CAE4 /* SLStoryboardController.m */,
+				41D50C291E49401700B8CAE4 /* SLStoryboardController+SLExtensionExample.h */,
+				41D50C2A1E49401700B8CAE4 /* SLStoryboardController+SLExtensionExample.m */,
 			);
 			path = SLStoryboardController;
 			sourceTree = "<group>";
@@ -119,8 +127,15 @@
 		41D50C101E493C0C00B8CAE4 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				41D50C241E493E4300B8CAE4 /* OnboardingViewsControllers */,
+				41D50C251E493E4300B8CAE4 /* ProductsViewControllers */,
+				41D50C261E493E4300B8CAE4 /* CreateRestoViewControllers */,
+				41D50C271E493E4300B8CAE4 /* RestaurantsViewControllers */,
+				41D50C281E493E4300B8CAE4 /* SettingsViewControllers */,
 				41D50C111E493C0C00B8CAE4 /* ViewController.h */,
 				41D50C121E493C0C00B8CAE4 /* ViewController.m */,
+				41D50C211E493DF600B8CAE4 /* SL_HomeViewController.h */,
+				41D50C221E493DF600B8CAE4 /* SL_HomeViewController.m */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -137,6 +152,41 @@
 			children = (
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		41D50C241E493E4300B8CAE4 /* OnboardingViewsControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = OnboardingViewsControllers;
+			sourceTree = "<group>";
+		};
+		41D50C251E493E4300B8CAE4 /* ProductsViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ProductsViewControllers;
+			sourceTree = "<group>";
+		};
+		41D50C261E493E4300B8CAE4 /* CreateRestoViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CreateRestoViewControllers;
+			sourceTree = "<group>";
+		};
+		41D50C271E493E4300B8CAE4 /* RestaurantsViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = RestaurantsViewControllers;
+			sourceTree = "<group>";
+		};
+		41D50C281E493E4300B8CAE4 /* SettingsViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SettingsViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,6 +215,7 @@
 		41A545E41DDF479F00AABF17 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = SL_;
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Agustin De Leon";
 				TargetAttributes = {
@@ -219,7 +270,9 @@
 				41D50C131E493C0C00B8CAE4 /* SLStoryboardController.m in Sources */,
 				41A545F41DDF479F00AABF17 /* AppDelegate.m in Sources */,
 				41D50C141E493C0C00B8CAE4 /* ViewController.m in Sources */,
+				41D50C2B1E49401700B8CAE4 /* SLStoryboardController+SLExtensionExample.m in Sources */,
 				41A545F11DDF479F00AABF17 /* main.m in Sources */,
+				41D50C231E493DF600B8CAE4 /* SL_HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

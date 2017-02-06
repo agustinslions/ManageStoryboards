@@ -11,12 +11,12 @@
 
 @interface SLStoryboardController : NSObject
 
-+ (SLStoryboardController *)sharedInstance;
++ (UIStoryboard *)getStoryBoardForName:(NSString *)name;
 
-- (UIStoryboard *)getStoryBoardForName:(NSString *)name;
++ (UINavigationController *)getNavigationControllerWithName:(NSString *)name
+                                             withStoryboard:(NSString *)storyboard;
 
-- (UINavigationController *)getNavigationControllerWithName:(NSString *)name withStoryboard:(NSString *)storyboard;
-
-- (UIViewController *)getViewControllerWithName:(NSString *)name withStoryboard:(NSString *)storyboard;
++ (UIViewController *)getViewControllerWithName:(NSString *)name
+                                 withStoryboard:(NSString *)storyboard;
 
 @end

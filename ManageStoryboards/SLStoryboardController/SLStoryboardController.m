@@ -10,30 +10,19 @@
 
 @implementation SLStoryboardController
 
-+ (SLStoryboardController *)sharedInstance
-{
-    static SLStoryboardController * instance = nil;
-    static dispatch_once_t onceToken;
-    dispatch_once(&onceToken, ^{
-        instance = [SLStoryboardController new];
-    });
-    
-    return instance;
-}
-
-- (UIStoryboard *)getStoryBoardForName:(NSString *)name
++ (UIStoryboard *)getStoryBoardForName:(NSString *)name
 {
     return [UIStoryboard storyboardWithName:name bundle:nil];
 }
 
-- (UINavigationController *)getNavigationControllerWithName:(NSString *)name withStoryboard:(NSString *)storyboard
++ (UINavigationController *)getNavigationControllerWithName:(NSString *)name withStoryboard:(NSString *)storyboard
 {
-    return [[self getStoryBoardForName:storyboard] instantiateViewControllerWithIdentifier:name];
+    return [[SLStoryboardController getStoryBoardForName:storyboard] instantiateViewControllerWithIdentifier:name];
 }
 
-- (UIViewController *)getViewControllerWithName:(NSString *)name withStoryboard:(NSString *)storyboard
++ (UIViewController *)getViewControllerWithName:(NSString *)name withStoryboard:(NSString *)storyboard
 {
-    return [[self getStoryBoardForName:storyboard] instantiateViewControllerWithIdentifier:name];
+    return [[SLStoryboardController getStoryBoardForName:storyboard] instantiateViewControllerWithIdentifier:name];
 }
 
 @end
