@@ -46,4 +46,10 @@
                                               withStoryboard:kRestaurantScreenStoryboard];
 }
 
++ (UIViewController *)fromAboutStoryboardVCWithName:(NSString *)name
+{
+    return [SLStoryboardController getViewControllerWithName:name
+                                              withStoryboard:kAboutScreensStoryboard];
+}
+
 @end

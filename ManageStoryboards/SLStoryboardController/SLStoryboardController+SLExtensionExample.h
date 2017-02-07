@@ -15,6 +15,7 @@
 #define kOnboardingScreenStoryboard     @"Onboarding_Screens"
 #define kCreateRestoStoryboard          @"CreateRestaurants_Screens"
 #define kRestaurantScreenStoryboard     @"Restaurants_Screen"
+#define kAboutScreensStoryboard         @"About_Screens"
 
 @interface SLStoryboardController (SLExtensionExample)
 
@@ -29,5 +30,7 @@
 + (UIViewController *)fromCreateRestoStoryboardVCWithName:(NSString *)name;
 
 + (UIViewController *)fromRestaurantStoryboardVCWithName:(NSString *)name;
+
++ (UIViewController *)fromAboutStoryboardVCWithName:(NSString *)name;
 
 @end

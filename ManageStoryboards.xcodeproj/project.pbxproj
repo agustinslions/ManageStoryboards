@@ -21,6 +21,12 @@
 		41D50C201E493D5600B8CAE4 /* Restaurants_Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41D50C1F1E493D5600B8CAE4 /* Restaurants_Screen.storyboard */; };
 		41D50C231E493DF600B8CAE4 /* SL_HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41D50C221E493DF600B8CAE4 /* SL_HomeViewController.m */; };
 		41D50C2B1E49401700B8CAE4 /* SLStoryboardController+SLExtensionExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 41D50C2A1E49401700B8CAE4 /* SLStoryboardController+SLExtensionExample.m */; };
+		41D50C311E4948B200B8CAE4 /* SL_ProductListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41D50C301E4948B200B8CAE4 /* SL_ProductListViewController.m */; };
+		41D50C341E4948BE00B8CAE4 /* SL_CreateRestoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41D50C331E4948BE00B8CAE4 /* SL_CreateRestoViewController.m */; };
+		41D50C371E4948CD00B8CAE4 /* SL_RestaurantsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41D50C361E4948CD00B8CAE4 /* SL_RestaurantsListViewController.m */; };
+		41D50C3A1E49490200B8CAE4 /* SL_SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41D50C391E49490200B8CAE4 /* SL_SettingsViewController.m */; };
+		41D50C3C1E494A1700B8CAE4 /* About_Screens.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41D50C3B1E494A1700B8CAE4 /* About_Screens.storyboard */; };
+		41D50C401E494A4200B8CAE4 /* SL_AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41D50C3F1E494A4200B8CAE4 /* SL_AboutViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +51,17 @@
 		41D50C221E493DF600B8CAE4 /* SL_HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SL_HomeViewController.m; sourceTree = "<group>"; };
 		41D50C291E49401700B8CAE4 /* SLStoryboardController+SLExtensionExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SLStoryboardController+SLExtensionExample.h"; sourceTree = "<group>"; };
 		41D50C2A1E49401700B8CAE4 /* SLStoryboardController+SLExtensionExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SLStoryboardController+SLExtensionExample.m"; sourceTree = "<group>"; };
+		41D50C2F1E4948B200B8CAE4 /* SL_ProductListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SL_ProductListViewController.h; sourceTree = "<group>"; };
+		41D50C301E4948B200B8CAE4 /* SL_ProductListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SL_ProductListViewController.m; sourceTree = "<group>"; };
+		41D50C321E4948BE00B8CAE4 /* SL_CreateRestoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SL_CreateRestoViewController.h; sourceTree = "<group>"; };
+		41D50C331E4948BE00B8CAE4 /* SL_CreateRestoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SL_CreateRestoViewController.m; sourceTree = "<group>"; };
+		41D50C351E4948CD00B8CAE4 /* SL_RestaurantsListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SL_RestaurantsListViewController.h; sourceTree = "<group>"; };
+		41D50C361E4948CD00B8CAE4 /* SL_RestaurantsListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SL_RestaurantsListViewController.m; sourceTree = "<group>"; };
+		41D50C381E49490200B8CAE4 /* SL_SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SL_SettingsViewController.h; sourceTree = "<group>"; };
+		41D50C391E49490200B8CAE4 /* SL_SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SL_SettingsViewController.m; sourceTree = "<group>"; };
+		41D50C3B1E494A1700B8CAE4 /* About_Screens.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = About_Screens.storyboard; sourceTree = "<group>"; };
+		41D50C3E1E494A4200B8CAE4 /* SL_AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SL_AboutViewController.h; sourceTree = "<group>"; };
+		41D50C3F1E494A4200B8CAE4 /* SL_AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SL_AboutViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +137,7 @@
 				41D50C191E493C8200B8CAE4 /* Onboarding_Screens.storyboard */,
 				41D50C1D1E493D3C00B8CAE4 /* CreateRestaurants_Screens.storyboard */,
 				41D50C1F1E493D5600B8CAE4 /* Restaurants_Screen.storyboard */,
+				41D50C3B1E494A1700B8CAE4 /* About_Screens.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -127,6 +145,7 @@
 		41D50C101E493C0C00B8CAE4 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				41D50C3D1E494A3400B8CAE4 /* AboutViewControllers */,
 				41D50C241E493E4300B8CAE4 /* OnboardingViewsControllers */,
 				41D50C251E493E4300B8CAE4 /* ProductsViewControllers */,
 				41D50C261E493E4300B8CAE4 /* CreateRestoViewControllers */,
@@ -164,6 +183,8 @@
 		41D50C251E493E4300B8CAE4 /* ProductsViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				41D50C2F1E4948B200B8CAE4 /* SL_ProductListViewController.h */,
+				41D50C301E4948B200B8CAE4 /* SL_ProductListViewController.m */,
 			);
 			path = ProductsViewControllers;
 			sourceTree = "<group>";
@@ -171,6 +192,8 @@
 		41D50C261E493E4300B8CAE4 /* CreateRestoViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				41D50C321E4948BE00B8CAE4 /* SL_CreateRestoViewController.h */,
+				41D50C331E4948BE00B8CAE4 /* SL_CreateRestoViewController.m */,
 			);
 			path = CreateRestoViewControllers;
 			sourceTree = "<group>";
@@ -178,6 +201,8 @@
 		41D50C271E493E4300B8CAE4 /* RestaurantsViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				41D50C351E4948CD00B8CAE4 /* SL_RestaurantsListViewController.h */,
+				41D50C361E4948CD00B8CAE4 /* SL_RestaurantsListViewController.m */,
 			);
 			path = RestaurantsViewControllers;
 			sourceTree = "<group>";
@@ -185,8 +210,19 @@
 		41D50C281E493E4300B8CAE4 /* SettingsViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				41D50C381E49490200B8CAE4 /* SL_SettingsViewController.h */,
+				41D50C391E49490200B8CAE4 /* SL_SettingsViewController.m */,
 			);
 			path = SettingsViewControllers;
+			sourceTree = "<group>";
+		};
+		41D50C3D1E494A3400B8CAE4 /* AboutViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				41D50C3E1E494A4200B8CAE4 /* SL_AboutViewController.h */,
+				41D50C3F1E494A4200B8CAE4 /* SL_AboutViewController.m */,
+			);
+			path = AboutViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -216,7 +252,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = SL_;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Agustin De Leon";
 				TargetAttributes = {
 					41A545EB1DDF479F00AABF17 = {
@@ -252,6 +288,7 @@
 				41A545FF1DDF47A000AABF17 /* LaunchScreen.storyboard in Resources */,
 				41D50C1A1E493C8200B8CAE4 /* Onboarding_Screens.storyboard in Resources */,
 				41D50C161E493C4900B8CAE4 /* Products_Screens.storyboard in Resources */,
+				41D50C3C1E494A1700B8CAE4 /* About_Screens.storyboard in Resources */,
 				41D50C181E493C6000B8CAE4 /* Settings_Screen.storyboard in Resources */,
 				41D50C1E1E493D3C00B8CAE4 /* CreateRestaurants_Screens.storyboard in Resources */,
 				41A545FC1DDF47A000AABF17 /* Assets.xcassets in Resources */,
@@ -267,12 +304,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41D50C3A1E49490200B8CAE4 /* SL_SettingsViewController.m in Sources */,
+				41D50C401E494A4200B8CAE4 /* SL_AboutViewController.m in Sources */,
 				41D50C131E493C0C00B8CAE4 /* SLStoryboardController.m in Sources */,
+				41D50C311E4948B200B8CAE4 /* SL_ProductListViewController.m in Sources */,
 				41A545F41DDF479F00AABF17 /* AppDelegate.m in Sources */,
 				41D50C141E493C0C00B8CAE4 /* ViewController.m in Sources */,
 				41D50C2B1E49401700B8CAE4 /* SLStoryboardController+SLExtensionExample.m in Sources */,
 				41A545F11DDF479F00AABF17 /* main.m in Sources */,
 				41D50C231E493DF600B8CAE4 /* SL_HomeViewController.m in Sources */,
+				41D50C341E4948BE00B8CAE4 /* SL_CreateRestoViewController.m in Sources */,
+				41D50C371E4948CD00B8CAE4 /* SL_RestaurantsListViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,6 +358,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -363,6 +406,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
