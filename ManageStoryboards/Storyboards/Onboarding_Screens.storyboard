@@ -1,7 +1,160 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
-    <scenes/>
+    <scenes>
+        <!--Step To Add Class View Controller-->
+        <scene sceneID="QHm-ig-HId">
+            <objects>
+                <viewController id="eMn-2c-HnH" customClass="SL_StepToAddClassViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="sky-f7-als"/>
+                        <viewControllerLayoutGuide type="bottom" id="f1u-V4-AZE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="z1T-HH-zHT">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sbv-Hw-mdj">
+                                <rect key="frame" x="16" y="610" width="343" height="37"/>
+                                <color key="backgroundColor" red="0.66666666669999997" green="0.26274509800000001" blue="0.26274509800000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="37" id="TqF-d8-XwP"/>
+                                </constraints>
+                                <state key="normal" title="Next">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="VGw-AU-72j" kind="show" id="cmt-4l-Hau"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This project allow you change between storyboards" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tbE-C5-gFq">
+                                <rect key="frame" x="0.0" y="28" width="359" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="G4V-QL-7n8"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="f1u-V4-AZE" firstAttribute="top" secondItem="sbv-Hw-mdj" secondAttribute="bottom" constant="20" id="2Kk-Xi-KHs"/>
+                            <constraint firstAttribute="trailing" secondItem="sbv-Hw-mdj" secondAttribute="trailing" constant="16" id="4Xq-1G-yB4"/>
+                            <constraint firstAttribute="trailing" secondItem="tbE-C5-gFq" secondAttribute="trailing" constant="16" id="MYR-Yf-Sn3"/>
+                            <constraint firstItem="tbE-C5-gFq" firstAttribute="top" secondItem="sky-f7-als" secondAttribute="bottom" constant="8" id="aaK-cr-oU1"/>
+                            <constraint firstItem="tbE-C5-gFq" firstAttribute="leading" secondItem="z1T-HH-zHT" secondAttribute="leading" id="sEV-tG-KVW"/>
+                            <constraint firstItem="sbv-Hw-mdj" firstAttribute="leading" secondItem="z1T-HH-zHT" secondAttribute="leading" constant="16" id="y9y-Cf-QLr"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9Ih-9W-6Or" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="245.59999999999999" y="-276.61169415292358"/>
+        </scene>
+        <!--Step To Add Class View Controller-->
+        <scene sceneID="b3A-Ns-DHs">
+            <objects>
+                <viewController id="VGw-AU-72j" customClass="SL_StepToAddClassViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="l6M-9V-x42"/>
+                        <viewControllerLayoutGuide type="bottom" id="YMA-Ao-xrc"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="L96-Ux-DmN">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oDa-St-mcG">
+                                <rect key="frame" x="16" y="610" width="343" height="37"/>
+                                <color key="backgroundColor" red="0.66666666669999997" green="0.26274509800000001" blue="0.26274509800000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="37" id="2fj-KA-PyN"/>
+                                </constraints>
+                                <state key="normal" title="Next">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="oaq-ZC-rNe" kind="show" id="jiZ-gj-HPS"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Only you need add the files SLStoryboardController" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Qs-Bw-WhQ">
+                                <rect key="frame" x="8" y="28" width="359" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="zB9-LL-JHA"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="oDa-St-mcG" firstAttribute="leading" secondItem="L96-Ux-DmN" secondAttribute="leading" constant="16" id="Ar8-fb-LhU"/>
+                            <constraint firstAttribute="trailing" secondItem="oDa-St-mcG" secondAttribute="trailing" constant="16" id="Fbc-bw-DhP"/>
+                            <constraint firstItem="2Qs-Bw-WhQ" firstAttribute="leading" secondItem="L96-Ux-DmN" secondAttribute="leading" constant="8" id="Nsl-Nr-geQ"/>
+                            <constraint firstItem="2Qs-Bw-WhQ" firstAttribute="top" secondItem="l6M-9V-x42" secondAttribute="bottom" constant="8" id="Ods-cI-nch"/>
+                            <constraint firstItem="YMA-Ao-xrc" firstAttribute="top" secondItem="oDa-St-mcG" secondAttribute="bottom" constant="20" id="P6E-HA-TGW"/>
+                            <constraint firstAttribute="trailing" secondItem="2Qs-Bw-WhQ" secondAttribute="trailing" constant="8" id="Wyw-M4-icG"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xS4-Yv-bUE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="922" y="-276"/>
+        </scene>
+        <!--Step To Add Class View Controller-->
+        <scene sceneID="hew-pu-qrF">
+            <objects>
+                <viewController id="oaq-ZC-rNe" customClass="SL_StepToAddClassViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="gan-UL-gNt"/>
+                        <viewControllerLayoutGuide type="bottom" id="nQ4-Gu-VEe"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="f0Z-Gy-8sp">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LBv-EI-N9j">
+                                <rect key="frame" x="16" y="610" width="343" height="37"/>
+                                <color key="backgroundColor" red="0.66666666669999997" green="0.26274509800000001" blue="0.26274509800000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="37" id="h48-ON-JvO"/>
+                                </constraints>
+                                <state key="normal" title="Finish">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Other idea is create a extension of the SLStoryboardController and create a method for each storyboard in your project." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A2d-Y9-yEd">
+                                <rect key="frame" x="8" y="28" width="359" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="bZ8-h6-Jh0"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="nQ4-Gu-VEe" firstAttribute="top" secondItem="LBv-EI-N9j" secondAttribute="bottom" constant="20" id="BLk-3F-GxX"/>
+                            <constraint firstAttribute="trailing" secondItem="LBv-EI-N9j" secondAttribute="trailing" constant="16" id="Myy-jS-rJe"/>
+                            <constraint firstAttribute="trailing" secondItem="A2d-Y9-yEd" secondAttribute="trailing" constant="8" id="aVL-R9-bFS"/>
+                            <constraint firstItem="LBv-EI-N9j" firstAttribute="leading" secondItem="f0Z-Gy-8sp" secondAttribute="leading" constant="16" id="adz-Td-d5O"/>
+                            <constraint firstItem="A2d-Y9-yEd" firstAttribute="top" secondItem="gan-UL-gNt" secondAttribute="bottom" constant="8" id="g8P-2U-6ff"/>
+                            <constraint firstItem="A2d-Y9-yEd" firstAttribute="leading" secondItem="f0Z-Gy-8sp" secondAttribute="leading" constant="8" id="sT4-1u-Ga1"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WfG-qn-Qo3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1636" y="-278"/>
+        </scene>
+    </scenes>
 </document>

@@ -12,6 +12,9 @@
 		41A545FA1DDF47A000AABF17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41A545F81DDF47A000AABF17 /* Main.storyboard */; };
 		41A545FC1DDF47A000AABF17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41A545FB1DDF47A000AABF17 /* Assets.xcassets */; };
 		41A545FF1DDF47A000AABF17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41A545FD1DDF47A000AABF17 /* LaunchScreen.storyboard */; };
+		41BA6B561E4A9E83007A2D68 /* SL_ChangeImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41BA6B551E4A9E83007A2D68 /* SL_ChangeImageViewController.m */; };
+		41BA6B591E4A9EC9007A2D68 /* SL_EditUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41BA6B581E4A9EC9007A2D68 /* SL_EditUserViewController.m */; };
+		41BA6B5C1E4A9F18007A2D68 /* SL_StepToAddClassViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41BA6B5B1E4A9F18007A2D68 /* SL_StepToAddClassViewController.m */; };
 		41D50C131E493C0C00B8CAE4 /* SLStoryboardController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41D50C0E1E493C0C00B8CAE4 /* SLStoryboardController.m */; };
 		41D50C141E493C0C00B8CAE4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41D50C121E493C0C00B8CAE4 /* ViewController.m */; };
 		41D50C161E493C4900B8CAE4 /* Products_Screens.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41D50C151E493C4900B8CAE4 /* Products_Screens.storyboard */; };
@@ -38,6 +41,12 @@
 		41A545FB1DDF47A000AABF17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41A545FE1DDF47A000AABF17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		41A546001DDF47A000AABF17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41BA6B541E4A9E83007A2D68 /* SL_ChangeImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SL_ChangeImageViewController.h; sourceTree = "<group>"; };
+		41BA6B551E4A9E83007A2D68 /* SL_ChangeImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SL_ChangeImageViewController.m; sourceTree = "<group>"; };
+		41BA6B571E4A9EC9007A2D68 /* SL_EditUserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SL_EditUserViewController.h; sourceTree = "<group>"; };
+		41BA6B581E4A9EC9007A2D68 /* SL_EditUserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SL_EditUserViewController.m; sourceTree = "<group>"; };
+		41BA6B5A1E4A9F18007A2D68 /* SL_StepToAddClassViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SL_StepToAddClassViewController.h; sourceTree = "<group>"; };
+		41BA6B5B1E4A9F18007A2D68 /* SL_StepToAddClassViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SL_StepToAddClassViewController.m; sourceTree = "<group>"; };
 		41D50C0D1E493C0C00B8CAE4 /* SLStoryboardController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLStoryboardController.h; sourceTree = "<group>"; };
 		41D50C0E1E493C0C00B8CAE4 /* SLStoryboardController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLStoryboardController.m; sourceTree = "<group>"; };
 		41D50C111E493C0C00B8CAE4 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -176,6 +185,8 @@
 		41D50C241E493E4300B8CAE4 /* OnboardingViewsControllers */ = {
 			isa = PBXGroup;
 			children = (
+				41BA6B5A1E4A9F18007A2D68 /* SL_StepToAddClassViewController.h */,
+				41BA6B5B1E4A9F18007A2D68 /* SL_StepToAddClassViewController.m */,
 			);
 			path = OnboardingViewsControllers;
 			sourceTree = "<group>";
@@ -212,6 +223,10 @@
 			children = (
 				41D50C381E49490200B8CAE4 /* SL_SettingsViewController.h */,
 				41D50C391E49490200B8CAE4 /* SL_SettingsViewController.m */,
+				41BA6B541E4A9E83007A2D68 /* SL_ChangeImageViewController.h */,
+				41BA6B551E4A9E83007A2D68 /* SL_ChangeImageViewController.m */,
+				41BA6B571E4A9EC9007A2D68 /* SL_EditUserViewController.h */,
+				41BA6B581E4A9EC9007A2D68 /* SL_EditUserViewController.m */,
 			);
 			path = SettingsViewControllers;
 			sourceTree = "<group>";
@@ -312,9 +327,12 @@
 				41D50C141E493C0C00B8CAE4 /* ViewController.m in Sources */,
 				41D50C2B1E49401700B8CAE4 /* SLStoryboardController+SLExtensionExample.m in Sources */,
 				41A545F11DDF479F00AABF17 /* main.m in Sources */,
+				41BA6B591E4A9EC9007A2D68 /* SL_EditUserViewController.m in Sources */,
 				41D50C231E493DF600B8CAE4 /* SL_HomeViewController.m in Sources */,
 				41D50C341E4948BE00B8CAE4 /* SL_CreateRestoViewController.m in Sources */,
+				41BA6B5C1E4A9F18007A2D68 /* SL_StepToAddClassViewController.m in Sources */,
 				41D50C371E4948CD00B8CAE4 /* SL_RestaurantsListViewController.m in Sources */,
+				41BA6B561E4A9E83007A2D68 /* SL_ChangeImageViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
